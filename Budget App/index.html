@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="styles.css" /> 
+   <link href="https://fonts.googleapis.com/css?family=Caladea&display=swap" rel="stylesheet" /> 
+    <title>Budget App</title>
+  </head>
+ 
+    <main>
+      <section id="monthly_budget_section"></section>
+      <section id="add_expense_section"> </section>
+      <section id="expense_list_section"> </section>
+      <section id="expense_total_section"></section>
+      <section id="remaining_balance_section"></section>
+    </main>
+
+    <section id="monthly_budget_section">
+      <h3>Monthly Budget:</h3>
+      <p id="monthly_budget"></p>
+      <form>
+        <input type="number" id="income_input" placeholder="Monthly income" />
+        <button id="update_budget">Update Budget</button>
+      </form>
+    </section>
+    
+    <section id="add_expense_section">
+      <h3>Add Expense :</h3>
+      <p id="monthly_budget"></p>
+      <form>
+        <input type="number" id="name_input" placeholder="Expense name" />
+        <input type="number" id="amount_input" placeholder="Expense amount" />
+        <button id="add_expense">Add Expense</button>
+      </form>
+    </section>
+
+    
+    <section id="expense_list_section"></dse> 
+    <h3> Add Expense:</h3>
+    <form>
+         <input type="text" id="name_input" placeholder="Expense name" /> 
+         <div id="expense_list"></div>
+    </section>
+    
+    <section id="expense_total_section"> </section>
+     <h3>Monthly Expenses: </h3> 
+    <div id="expense_list"></div>
+  </section>
+
+  <section id="expense_total_section">
+    <h3> Total Expenses:</h3>
+    <p id= "total_expenses"></p>
+  
+  
+    <section id="remaining_balance_section">
+    <h3> Remaining Balance:</h3>
+    <p id= "remaining_balance"></p>
+</section>
+</main>
+
+
+
+<script src="script.js"></script> 
+
+</body>
+</html>
